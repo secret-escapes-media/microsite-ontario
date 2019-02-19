@@ -1,0 +1,26 @@
+# Site settings
+title: Paradies der Aromen
+client:
+  name: Grenada
+  link: "http://bit.ly/2HSy3cC"
+  link2: "http://bit.ly/2ShX45Y"
+
+core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=grenada_DE_2019
+description: >
+  Erkunden Sie Ihren Geschmackssinn auf der Gewürzinsel Grenada und erfüllen sich Ihren Traumurlaub in der Karibik.
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/de/grenada/" # the subpath of your site, e.g. /blog/
+img:     "/de/grenada/_assets/img"
+css:     "/de/grenada/_assets/css"
+js:      "/de/grenada/_assets/js"
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed

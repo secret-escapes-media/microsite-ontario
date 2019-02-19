@@ -1,0 +1,11 @@
+{% include offer/variables.html %}
+
+<div class=" bg--sand">
+  <div class="">
+    {% for offer in offers-by-price %}
+      <div class="col">
+        {% include offer/offer.html %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
