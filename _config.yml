@@ -1,7 +1,7 @@
 # Site settings
-title: Paradies der Aromen
+title: Traumhaftes Kanada
 client:
-  name: Grenada
+  name: Ontario
   link: "http://bit.ly/2HSy3cC"
   link2: "http://bit.ly/2ShX45Y"
 
@@ -11,10 +11,10 @@ description: >
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/grenada/" # the subpath of your site, e.g. /blog/
-img:     "/de/grenada/_assets/img"
-css:     "/de/grenada/_assets/css"
-js:      "/de/grenada/_assets/js"
+baseurl: "/de/ontario/" # the subpath of your site, e.g. /blog/
+img:     "/de/ontario/_assets/img"
+css:     "/de/ontario/_assets/css"
+js:      "/de/ontario/_assets/js"
 
 
 # Build settings

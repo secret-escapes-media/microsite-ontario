@@ -20,64 +20,25 @@
   &--wide-kern    { letter-spacing: .25em; }
   &--wide-kern-lg { letter-spacing: .5em; }
   &--upper        { text-transform: uppercase; }
+  &--underline        { text-decoration: underline; }
 
   // colours
   &--white { color: $grey-lightest; }
   &--black { color: $grey-dark; }
-  &--blue { color: $g-blue; }
-  &--gradient {
-    background-color: $g-blue; /* For browsers that do not support gradients */
-    background-image: linear-gradient(0deg, $g-blue, $g-purple); /* Standard syntax (must be last) */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
+  &--blue { color: $b-blue; }
+  &--b-dark { color: $b-darkgrey; }
+
 
   // alignment
   &--left   { text-align: left; }
   &--right  { text-align: right; }
   &--center { text-align: center; }
+  &--justify { text-align: left; }
+
   @include bp($lg) {
     &--bp-left   { text-align: left; }
     &--bp-right  { text-align: right; }
     &--bp-center { text-align: center; }
-  }
-}
-
-
-
-.condor-text {
-
-  font-family: $font-condor;
-  // sizes
-  &--xxxl { font-size: 1.7rem; line-height: 1.3; letter-spacing: 0.5px; }
-  &--xxl { font-size: 1.2rem; line-height: 1.6; letter-spacing: 0; }
-  &--xl  { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
-  &--lg  { font-size: 1.05rem; letter-spacing: 0; }
-  &--md  { font-size: .95rem; letter-spacing: 0; }
-  &--sm  { font-size: .8rem; }
-  &--xs  { font-size: .7rem; }
-
-  // styles
-  &--italic       { font-style: italic; }
-  &--light        { font-weight: 300; }
-  &--normal       { font-weight: 400; }
-  &--semi         { font-weight: 500; }
-  &--bold         { font-weight: 600; }
-  &--bolder       { font-weight: 700; }
-  &--wide-kern    { letter-spacing: .25em; }
-  &--wide-kern-lg { letter-spacing: .5em; }
-  &--upper        { text-transform: uppercase; }
-
-  // colours
-  &--white { color: $grey-lightest; }
-  &--black { color: $grey-dark; }
-
-  // alignment
-  &--left   { text-align: left; }
-  &--right  { text-align: right; }
-  &--center { text-align: center; }
-  @include bp($lg) {
-    &--bp-left   { text-align: left; }
-    &--bp-right  { text-align: right; }
-    &--bp-center { text-align: center; }
+    &--justify { text-align: justify; }
   }
 }

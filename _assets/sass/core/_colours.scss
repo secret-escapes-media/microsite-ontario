@@ -15,16 +15,9 @@ $orange-darker:  #d66000;
 
 // // brand colours
 
-$g-purple: #B40937;
-$g-blue: #00aec5;
-$g-yellow: #f0d313;
-$g-sand: #f1eee5;
-$c-grey: #4f4c49;
-$c-orange: #f8ac00;
-$c-lightorange: #f3c249;
-$c-darkorange: #e79339;
-
-.bv-brand-gradient {
-  background-color: $g-blue; /* For browsers that do not support gradients */
-  background-image: linear-gradient(-45deg, $g-blue, $g-purple); /* Standard syntax (must be last) */
-}
+$b-purple: #7F1D2A;
+$b-orange: #f8ac00;
+$b-blue: #014587;
+$b-turquoise: #007d8c;
+$b-darkgrey: #3d4a50;
+$b-lightgrey: #ECF1F1;

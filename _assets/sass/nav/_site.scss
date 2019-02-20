@@ -18,8 +18,8 @@ $nav-color:          $white;
 
 .site-nav {
   position: relative;
-  background-color: $g-blue; /* For browsers that do not support gradients */
-  background-image: linear-gradient(60deg, $g-blue, $g-yellow); /* Standard syntax (must be last) */
+  background-color: rgba($b-darkgrey, 0);
+
   text-align: center;
 
   // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
@@ -77,26 +77,29 @@ $nav-color:          $white;
   &__item {
     display: flex;
     flex: 1 0 auto;
-    border-right: 1px solid rgba($white,.15);
-    &:last-child { border-right: 0; }
+    border-left: 2px solid rgba($white,1);
+    border-top: 2px solid rgba($white,1);
+    border-bottom: 2px solid rgba($white,1);
+    &:last-child { border-right: 2px solid rgba($white,1); }
   }
   &__link {
     display: flex;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
+    background-color: rgba($black, .4);
     padding-left: $s4;
     padding-right: $s4;
     font-family: $font-title-01;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: .2em;
     text-transform: uppercase;
     color: $white;
     transition: background-color $transition-time ease;
     white-space: nowrap;
     &.is-current      { background-color: rgba($nav-color,.3); }
-    .no-touch &:hover { background-color: rgba($nav-color,.2); }
+    .no-touch &:hover { background-color: rgba($black,0.8);}
     @include bp($nav-width-bp){
       padding-left: $s0;
       padding-right: $s0;

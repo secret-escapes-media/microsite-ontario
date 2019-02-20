@@ -87,7 +87,7 @@ $offer-max-width: 600px;
     min-width: $circle-height;
     min-height: $circle-height;
     margin-left: $s-3;
-    border: 1px solid $g-blue;
+    border: 1px solid $b-blue;
     border-radius: $circle-height;
     background-repeat: no-repeat;
     background-image: url('../img/icons/arrow-right-orange.svg');
@@ -107,7 +107,7 @@ $offer-max-width: 600px;
       font-weight: 600;
       letter-spacing: 0;
       line-height: $circle-height;
-      background-color: $g-blue;
+      background-color: $b-blue;
       border-radius: $circle-height;
     }
   }
@@ -124,7 +124,7 @@ $offer-max-width: 600px;
     background-color: $grey-lighter;
   }
   &__price {
-    color: $g-blue;
+    color: $b-blue;
     font-size: $s2;
     font-weight: 600;
     line-height: 1;

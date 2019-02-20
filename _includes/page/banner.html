@@ -1,33 +1,16 @@
-<div class="banner banner--overview">
+<div class="banner">
   <div class="site-header__offset"></div>
-  <div class="banner__bg" style="background-image: url('{{site.img}}/content/banner.jpg')"></div>
+  <div class="banner__bg bv-parallax" style="background-image: url('{{site.img}}/content/hero.jpg')"></div>
   <div class="banner__wrap">
-
-    <div class="container text--center text--white">
-      <div class="banner__title">
-        <h1 class="banner-title ">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+    {% if page.banner.content %}
+      {{page.banner.content | liquify}}
+    {% else %}
+      <div class="container container--no-padding text--center">
+        {% if page.banner.title-sup %}<h2 class="sub-title">{{page.banner.title-sup}}</h2>{% endif %}
+        <h1 class="banner-title">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+        {% if page.banner.title-sub %}<h2 class="sub-title bv-title-divider  ">{{page.banner.title-sub}}</h2>{% endif %}
       </div>
-      {% if page.banner.title-sub %}
-        <h4 class="text--white sub-title--lg sub-title ">- {{page.banner.title-sub}} -</h4>
-      {% endif %}
-      <div class="space--md"></div>
-
-    </div>
-
-    <div class="banner__bottom-content">
-      <div class="container container--xl text--center">
-        {{page.banner.intro}}
-      </div>
-    </div>
-
-  </div>
-  <div class="banner__bg-video" style="background-image: url('{{site.img}}/content/hero.jpg')">
-  <!--  <video id="banner-video" src="{{site.img}}/content/video.mp4" height="100%" playsinline loop muted autoplay></video> -->
-
-    <video controls poster="{{site.img}}/content/hero.jpg"  playsinline loop muted autoplay>
-      <source src="{{site.img}}/content/video.mp4" type="video/mp4">
-    </video>
-
+    {% endif %}
   </div>
   <div class="banner__nav">
     {% include nav/sections.html %}

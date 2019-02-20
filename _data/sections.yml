@@ -1,7 +1,7 @@
 - id: one
-  title: Hollywood-Kulisse
-  nav-title: Strände
-  description: "Kilometerlange, feinste Sandstrände umgeben von türkisblauem warmen Wasser: Die Strände entlang der Küste Grenadas sind unbeschreiblich schön. Der bekannteste Strand der Insel ist der Grand Anse La Roche. Die große Bucht in der Halbmondform diente als Filmkulisse für den Hollywood-Film 'Fluch der Karibik'. Trotz seiner Prominenz, ist der Strand oft menschenleer. Die Morne Rouge Bay, mit ihrem flach abfallenden Wasser und den ruhigen Wellen, ist ein idealer Ort für Familienurlaube. Die hoch gewachsenen Palmen spenden Schatten und versprechen Kletter-Spaß. Auf Grenadas Nachbarinsel Carricaou liegt der Strand mit dem vielversprechenden Namen Paradise Beach: Zahlreiche kleine Kokoshütten mit Hängematten säumen sich hier entlang der&nbsp;Palmenhaine."
+  title: Metropolen in Ontario
+  nav-title: Ontario
+  description: 'Die quirligen Metropolen Toronto und Ottawa sind die turbulenten Mittelpunkte in Ontario. In Toronto, der größten Stadt Kanadas, leben über 100 Kulturen und bilden ein dynamisches Mosaik aus Sprachen und kulinarischen Highlights. Unzählige Parks mit Blumen und Gärten, säumen sich zwischen bunten Stadtvierteln. Architektur, Fashion und Kunst auf höchstem Niveau präsentiert dieses Modezentrum der Welt. Unbedingt sollten Sie dem CN Tower oder der Burg Casa Loma sowie der Art Gallery of Ontario einen Besuch abstatten. Schlendern Sie durch das schicke Yorckville oder die Queen Street entlang, vorbei an skurrilen Boutiquen und erkunden das unterirdische Geschäftsnetz des Finanzviertels. Ottawa, Kanadas Hauptstadt, verbindet englische und französische Einflüsse. Die faszinierende Mischung aus moderner und historischer Tradition, findet sich vor allem in der Kultur wieder, wie dem niederländischen Tulpenfest.'
 
 
 
@@ -11,9 +11,9 @@
 
 
 - id: two
-  title: Tropische Exoten
-  nav-title: Flora & Fauna
-  description: "Entstanden aus Vulkanen, die schon lange inaktiv sind, säumt sich rund um den Kratersee Grand Etang Lake, tropischer Regenwald. In der Gebirgslandschaft des Grand Etang Forest Reserve, treffen Sie seltene Tier-und Pflanzenarten, wie das berühmte Mona Äffchen. Während Ihrer Wandertour durch die grüne Lunge pausieren Sie zur Erfrischung an einem der vielen Wasserfälle der Insel. Ein weiteres Highlight ist der riesige Levera National Park: Den Strand nutzen die geschützten Meeresschildkröten zur Ei-Ablage. Das Naturspektakel wird streng bewacht und ist nur mit fachkundiger Führung erreichbar. Der Nationalpark beheimatet außerdem zahlreiche Singvogelarten, lauschen Sie dem unglaublichen Chor an exotischen Klängen und Liedern der stimmbegabten, farbenprächtigen&nbsp;Federtiere."
+  title: Abenteuer erleben
+  nav-title: Abenteuer erleben
+  description: "Für aktive ist Ontario ein wahres El Dorado. Ein großes Netzwerk an sogenannten Ontario Trails, verbindet Naturschutzparks und Sehenswürdigkeiten miteinander. Über den Bruce Trail erreichen Sie die wundervolle Landschaft der Bruce Peninsula, mit ihren schroffen Felsen und glasklarem Wasser. Nicht nur zu Fuß, auch mit dem Fahrrad lassen sich die vielen Küsten und Seeufer, wie der Great Lake entlang der Waterfront Trail erkunden. Auf Touren durch den Algonquin Park, lauschen Sie dem Heulen der Wölfe und atmen pure Waldluft. Mit einer Fülle an spannenden Aktivitäten wie Bungee-Jumping, Seilrutschen und Fallschirmspringen, finden Adrenalin-Junkies garantierten Nervenkitzel. Zum Beispiel gleiten Sie aufregende 60 Sekunden lang, an der höchsten und schnellsten Zipline Kanadas über die Thunder Bay oder wagen einen Blick, über die tiefe Schlucht des Ouimet Canyon, auf Kanadas längster Fußhängebrücke.  "
 
 
 
@@ -23,9 +23,9 @@
 
 
 - id: three
-  title: Aktiv auf Grenada
-  nav-title: Aktivitäten
-  description: "Hier kommt keine Langeweile auf! Zu Fuß, auf Rädern oder mit dem Boot – auf Grenada haben Sie die Qual der Wahl. Das karibische Paradies lockt mit vielen sportlichen Aktivitäten. Neben verschiedenen Wandertouren in die üppigen Regenwälder und rasante Jeep-Touren durch die Nationalparks geht es auch zu den Kakaoplantagen. Erkunden Sie die Küstenstreifen mit dem Fahrrad oder nehmen an einer spritzigen Crossbike-Tour teil. Wenn Sie das Element Wasser lieben, haben Sie gleich mehrere Disziplinen zur Auswahl: Stürzen Sie sich ins Wildwasser mit den River-Tuben oder gleiten mit dem Kayak die Buchten entlang. Entdecken Sie die schillernde Unterwasserwelt der Riffe beim Schnorcheln und Tauchen. Sportangler fahren auf die hohe See und für Segelfans ist das große La Source Grenada Sailing Festival ein Muss. Wer nicht selbst mitsegeln kann, sollte das Rennen als Zuschauer&nbsp;begleiten."
+  title: Wildwasser pur
+  nav-title: Wildwasser pur
+  description: "Wassersportler finden in den vielen Provincial Parks Kanadas traumhafte Bedingungen und Möglichkeiten. Die passende professionelle Ausrüstung bekommen Sie vor Ort bei einem Outfitter. Mit dem Paddelboot oder einem Kajak, erkunden Sie in Ruhe die Ufer und Schluchten des beliebten Algonquin Park, dem größten und ältesten Naturpark in Ottario. Die schroffen Felsen und Klippen des Killarney Provincial Parks, zeigen zum Wasser hin ihre schönsten Seiten. Der Ottawa River ist bekannt für seine tosenden Stromschnellen und Wasserwirbel, die Namen tragen wie Hell's Half Mile oder Butchers Knife. Waghalsige fahren wilde Rafting-Touren auf dem Wildwasser und nehmen es sogar mit dem 5 Meter hohen Wasserfall auf sich. Der Wasaga Beach in der Nähe der Metropole Toronto, ist nicht nur beliebt bei Touristen. Den längsten Süßwasserstrand der Welt, nutzen auch die Einheimischen zum Schwimmen, Tauchen und Schnorcheln. "
 
 
 
@@ -34,10 +34,21 @@
 
 
 - id: four
-  title: Feste für die Sinne
-  nav-title: Kultur & Veranstaltungen
-  description: "Die Grenader sind so begeistert vom Karneval, dass sie ihn gleich zweimal im Jahr feiern: Einmal zum Rosenmontag und ein weiteres Mal am zweiten Augustwochenende zum Spicemas-Festival. Die Parade mit den wunderschönen und aufwendig gestalteten Kostümen zu den rhythmischen Tänzen, sollten Sie auf keinen Fall verpassen. Für Musikfans bietet die Insel eine Vielzahl an weiteren Events und Festivals über das Jahr verteilt. Lassen Sie sich auf dem Grenada Chocolate-Festival von süßen Schokoladenträumen verführen und erleben die hohe Kunst der Chocolatiers. Weitere kulinarische Höhepunkte finden beim jährlichen Flavours of Grenada Festival statt. Mit den Gewürzen der Insel bereiten Spitzenköche neue Gerichte zu und wetteifern um die Gunst der Jury. Das Grenada Sailing-Festival begeistert nicht nur Segelfans: Vor der Küste Grenadas liefern sich die besten Segler der Welt ein spektakuläres&nbsp;Rennen. "
+  title: Niagarafälle erleben
+  nav-title: Niagarafälle
+  description: "Eines der spektakulärsten Naturwunder der Welt sind die Niagarafälle in Kanada. Der tiefe Sturz des Flusses Niagara, der die Seen Lake Erle und Lake Ontario verbindet, sollte unbedingt auf Ihrer Ausflugsliste stehen. In die 'Horseshoe Falls', wie sie aufgrund ihrer Hufeisenform genannt werden, fließt der Hauptteil des Flusses. Sie haben die Möglichkeit, aus einem großen Angebot an Touren rund um die Niagarafälle, zu wählen: Mit der Hornblower Cruises, dem Ausflugsboot, erleben Sie die tosenden Wasserströme aus nächster Nähe. Nicht weniger aufregend ist eine Erkundungstour durch das Tunnelsystem hinter den Fällen. Für Mutige, die den Nervenkitzel suchen, bietet die Wild Play Zipline, eine Fahrt über die Wasserfälle hinweg. Mit dem Whirlpooljet rasen Sie im Motorboot über den Niagara Fluss. Oder genießen Sie die Aussicht auf das Naturereignis, von einem Helikopter aus."
 
 
 
-  ################################################################################
+################################################################################
+
+
+
+- id: five
+  title: Kulturelles Erbe
+  nav-title: Kulturelles Erbe
+  description: "Allgegenwärtig ist die Geschichte und Kultur der Ureinwohner Kanadas. Auch in  Ontario befindet sich ein Zentrum, das mit Ausstellungen über das Erbe der First Nation informiert. Wer das authentische Leben der Indianer kennenlernen möchte, sollte eines der Pow Wows –  wie die Zusammentreffen der einzelnen Indianergruppen genannt werden, nicht verpassen. Zu Trommelklängen und Gesang werden hier traditionelle Tänze vorgeführt. Veranstaltungen zum indianischen Kunsthandwerk, wie der Fertigstellung von Mokassins und Traumfängern oder der Zubereitung von fangfrischem Fisch, können hier erlernt werden. Touren in den Nationalparks geben einen umfassenden Einblick, über die Lebensart der Ureinwohner und ihren Umgang mit der Natur. Zum Abschluß, sollten Sie die heiligen Petroglyphen besichtigen und der indianischen Kunst des Geschichten Erzählens beiwohnen. "
+
+
+
+    ################################################################################

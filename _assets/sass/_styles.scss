@@ -7,37 +7,27 @@
    .bv-clearfix {
         overflow: auto;
    }
-   .bv-title-divider::before{
-     content: url(../img/icons/flower.png);
-     transform: scale(.50);
-     display: block;
-     margin-bottom: -100px;
-     /*margin-bottom: -2px;
-     transform: scale(.65);*/
-  /*
-     @include bp($md) {
-    content: url(../img/icons/flower.svg);
-       display: block;
-       margin-top: 10px;
-       transform: scale(.5);
 
-     }
-
-     @include bp($xl) {
-      content: url(../img/icons/flower.svg);
-       display: block;
-       margin-top: 2px;
-       transform: scale(.3);
-
-     }*/
+   .bv-title-divider::before, .bv-title-divider::after{
+       content: ('===========');
+       //display: block;
+       //color: $grey;
+       font-size: $s5;
+       font-family: $font-title-02;
+       letter-spacing: -5px;
+       font-weight: 300;
+       margin: 10px;
    }
+
    .bv-headline-divider::after {
-       content: ('––');
+       content: ('=====');
+       font-family: $font-title-02;
        display: block;
        //color: $grey;
        font-size: $s5;
-       letter-spacing: -4px;
-       margin: -15px 0 -10px -2px;
+       letter-spacing: -5px;
+       font-weight: 300;
+       margin:  -1px;
      }
 
 
@@ -45,6 +35,22 @@
    /* ==========================================================================
        Parallax
    ========================================================================== */
+
+ .bv-background {
+   background: url(../img/content/hero.jpg) ;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+ }
+
+ .bv-intro-gb {
+
+   background-color: rgba($b-darkgrey, 0.9);
+
+   filter: alpha(opacity=60); /* For IE8 and earlier */
+ }
+
+
 
    .bv-parallax{
      background-attachment: fixed!important;
@@ -67,8 +73,9 @@
 
       &--darkest   {
             background-attachment: fixed;
-            background-color: rgba(5,20,40,0.9);
-            background-blend-mode: multiply;
+            //background-color: rgba($b-darkgrey,0.9);
+            //background-blend-mode: overlay;
+            //background: rgba($b-darkgrey,0.9);
             background-position: center;
             background-size: cover;}
 
@@ -116,6 +123,7 @@
       .bv-remove-bg{
         background-image: none!important;
         background-blend-mode: mixin;
+        background-color: $b-darkgrey;
 
         &--black{
           background-image: none!important;
@@ -160,83 +168,6 @@
 
 
 
-  .bv-drawing{
-
-    background-repeat: no-repeat;
-    background-blend-mode: normal;
-    background-position: center;
-    background-size: 30%;
-
-  }
-
-
-
-  /* ==========================================================================
-     Condor banner
-     ========================================================================== */
-
-  .bv-orange-condor{
-
-  background-color: $c-orange;
-  background-image: linear-gradient(90deg, $c-darkorange, $c-lightorange);
-  height: 10px;
-  overflow: visible;
-  text-align: center;
-
-  @include bp($xxl){
-
-      text-align: left; }
-  }
-
-
-  .bv-section-condor{
-    color:$white;
-    background-color: #333;
-
-
-  }
-
-  .bv-logo-condor{
-    text-align: center!important;
-    width: 180px;
-    margin-top: -1px;
-
-    }
-
-  .bv-img-condor{
-
-      outline-offset: -3px;
-      outline: 6px solid #fff;
-      box-shadow: 0px 0px 25px 15px rgba($black, .2);
-      transform: rotate(0deg);
-      margin-top: 15px;
-      @include bp($xxl){
-
-        transform: rotate(3.5deg); }
-    }
-
-  .bv-badge-condor{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top: $s1 ;
-    right: $s1;
-    //border: 4px solid $c-orange;
-    text-align: center;
-    border-radius: 100px;
-    background-color: $c-orange;
-    background-image: linear-gradient(45deg, $c-darkorange, $c-lightorange);
-    color: $white;
-    transform: rotate(0deg);
-    z-index: 10;
-
-    @include bp($lg){
-
-      width: 110px;
-      height: 110px;}
-
-    }
-
 
 
   /* ==========================================================================
@@ -246,7 +177,7 @@
 
 .bg-white-mob{
 
-  background-color: $g-sand;
+  background-color: $b-lightgrey;
 margin-left: $s-5;
   @include bp($xxl){  background-color: $white; margin-left: 5px;}
 
