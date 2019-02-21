@@ -69,8 +69,8 @@ $nav-color:          $white;
     &:after {
       // additional spacing for end of list so content can scroll past the overlaid arrow icon
       content: '';
-      min-width: $site-nav-height-sm;
-      @include bp($md){ min-width: $site-nav-height; }
+      //min-width: $site-nav-height-sm;
+      //@include bp($md){ min-width: $site-nav-height; }
       @include bp($nav-width-bp){ display: none; }
     }
   }

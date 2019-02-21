@@ -9,25 +9,37 @@
    }
 
    .bv-title-divider::before, .bv-title-divider::after{
-       content: ('===========');
+       content: ('=====');
        //display: block;
        //color: $grey;
-       font-size: $s5;
+       font-size: $s3;
        font-family: $font-title-02;
-       letter-spacing: -5px;
+       letter-spacing: -8px;
        font-weight: 300;
        margin: 10px;
+
+      @include bp($md){
+         content: ('=====');
+         letter-spacing: -4px;
+         font-size: $s4;}
+
+      @include bp($lg){
+       content: ('========');
+       letter-spacing: -4px;
+       font-size: $s4;}
+
    }
 
    .bv-headline-divider::after {
-       content: ('=====');
+       content: ('========');
        font-family: $font-title-02;
        display: block;
        //color: $grey;
-       font-size: $s5;
-       letter-spacing: -5px;
+       font-size: $s3;
+       font-family: $font-title-02;
+       letter-spacing: -8px;
        font-weight: 300;
-       margin:  -1px;
+       //margin: 10px;
      }
 
 
@@ -44,128 +56,140 @@
  }
 
  .bv-intro-gb {
-
    background-color: rgba($b-darkgrey, 0.9);
-
    filter: alpha(opacity=60); /* For IE8 and earlier */
  }
 
 
 
-   .bv-parallax{
-     background-attachment: fixed!important;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+.bv-parallax{
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 
-      &--left   {
-            background-attachment: fixed;
-            background-position: 32% 50%;
-            background-repeat: no-repeat;
-            background-size: cover;}
-
-
-      &--right   {
-            background-attachment: fixed;
-            background-position: 60% 50%;
-            background-repeat: no-repeat;
-            background-size: cover;}
-
-      &--darkest   {
-            background-attachment: fixed;
-            //background-color: rgba($b-darkgrey,0.9);
-            //background-blend-mode: overlay;
-            //background: rgba($b-darkgrey,0.9);
-            background-position: center;
-            background-size: cover;}
-
-      &--darker   {
-            background-attachment: fixed;
-            background-color: rgba(5,20,40,0.7);
-            background-blend-mode: multiply;
-            background-position: center;
-            background-size: cover;}
-
-      &--dark   {
-            background-attachment: fixed;
-            background-color: rgba(5,20,40,0.5);
-            background-blend-mode: multiply;
-            background-position: center;
-            background-size: cover;}
-
-      &--lighter   {
-            background-attachment: fixed;
-            background-color: rgba(250,250,250,0.7);
-            background-blend-mode: lighten;
-            background-position: center;
-            background-size: cover;
-            }
-
-      &--light   {
-            background-attachment: fixed;
-            background-color: rgba(250,250,250,0.5);
-            background-blend-mode: color;
-            background-position: center;
-            background-size: cover; }
-
-      &--white   {
-            background-attachment: fixed;
-            background-color: rgba(250,250,250,0.8);
-            background-blend-mode: overlay;
-            background-position: center;
-            background-size: cover; }
-
-      }
+}
 
 
    @media only screen and (max-width: 1024px) {
 
       .bv-remove-bg{
         background-image: none!important;
-        background-blend-mode: mixin;
         background-color: $b-darkgrey;
 
-        &--black{
-          background-image: none!important;
-          background-color: $black;}
       }
 
       .bv-parallax{
             background-attachment: scroll;
-            background-size: 200%;
-            background-position: right top;
-            background-color: $black;
-
-         &--darkest   {
-            background-attachment: scroll;
             background-size: cover;
-          }
-          &--darker   {
-            background-attachment: scroll;
-            background-size: cover;
-          }
-          &--dark   {
-            background-attachment: scroll;
-            background-size: cover;
-          }
-          &--lighter   {
-            background-attachment: scroll;
-            background-size: cover;
-            background-color: none;
-          }
-          &--light   {
-            background-attachment: scroll;
-            background-size: cover;
-            background-color: none;
-          }
-          &--white   {
-            background-attachment: scroll;
-            background-size: cover;
-            background-color: none;
-          }
         }
       }
 
+
+
+      /* ==========================================================================
+       hero-youtube
+      ========================================================================== */
+
+      /* The Modal (background) */
+      .bv-modal {
+        display: none;
+        position: fixed;
+        z-index: 100;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: rgba($black,0.8);
+      }
+
+      /* Modal Content */
+      .bv-modal-content-details {
+        position: absolute;
+        height: 100%;
+        max-height: 620px;
+        width: 100%;
+        margin: auto;
+        padding:  55px;
+        top: 0; left: 0; bottom: 0; right: 0;
+        overflow: hidden;
+
+      }
+
+
+      .bv-mySlides {
+        margin: auto;
+        max-width:1000px;
+        width:100%;
+        background-color: #fff;
+
+      }
+
+
+      .bv-iframe-ratio {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 56.25%; // 16:9 ratio
+        background-color:#000;
+
+      }
+
+      .bv-iframe-ratio iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0; top: 0;
+      }
+
+      /* The Close Button */
+      .bv-close {
+        position: absolute;
+        background-size:16px;
+        top: 0px;
+        right: 0px;
+        background-image: url('../img/icons/close.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 55px;
+        height: 55px;
+        background-color: $b-blue;
+        z-index:999;
+        cursor: pointer;
+
+      }
+
+
+      @media only screen and (max-width: 650px) {
+
+      .bv-modal-content-details {
+        padding: 0;
+        max-height: 38vh;
+        height: 100%;
+        }
+      }
+
+
+      @media only screen and (min-width: 650px) and (max-width: 800px) {
+
+      .bv-modal-content-details {
+        padding: 0;
+        max-height: 450px;
+        height: 100%;
+        }
+      }
+
+      .bv-disable-scroll {
+        overflow: hidden;
+        & >:not(.bv-modal) {
+          -webkit-filter: blur(10px);
+          -moz-filter: blur(10px);
+          -o-filter: blur(10px);
+          -ms-filter: blur(10px);
+          filter: blur(10px);
+        }
+      }
 
 
 

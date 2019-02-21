@@ -20,6 +20,7 @@
 
   &--outline {
     color: inherit;
+    border-radius: 0px;
     &:before {
       // button border within original padding
       content: '';
@@ -28,10 +29,15 @@
       left: 0;
       right: 0;
       bottom: 0;
-      border-width: 1px;
+      border-width: 2px;
       border-style: solid;
       border-radius: inherit;
       @include transition;
+    }
+    &:hover {
+      background-color: $white;
+      color: $b-darkgrey;
+      &:before { border-color: $b-darkgrey; }
     }
   }
   &--outline-orange {

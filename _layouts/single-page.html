@@ -25,7 +25,8 @@
             <div class="space--sm"></div>
             <div class="text text--xxl text--justify">{{page.intro}}</div>
               <div class="space--xl text--center">
-               <a href="javascript:void(0);" class="btn btn--outline js-open-modal " data-modal-group="video" data-modal-item="0">Video ansehen</a>
+
+  <div id="bv-myBtn" style="cursor: pointer;" class=" btn btn--outline" > Film ansehen</div>
              </div>
 
                  <div class="space--xxl"></div>
@@ -39,6 +40,7 @@
       <div id="{{section.id}}" class="harvey{% cycle '', ' harvey--swap' %} {% cycle 'bg--b-light', ' bg--b-dark' %}">
         <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{section.id}}.jpg');"> </div>
         <div class="harvey__text boxpad--lg text  text--justify {% cycle 'text--b-dark', 'text--white' %} text--xxl">
+<div class="space--lg"></div>
           <h2 class="title title--xl  text--upper text--left bv-headline-divider ">{{section.title}}</h2>
           <p>{{section.description}}</p>
           <div class="space--lg"></div>
@@ -54,7 +56,7 @@
       <div class="space--xl"></div>
       <div class="container">
         <div class="width width--xxl  text--xxl text--semi" >
-          <div class="title title--xxl text--upper text--b-dark text--upper ">Top-Angebote</div>
+          <div class="title title--xxl text--upper text--b-dark text--upper ">Angebote</div>
 
 
         </div>
@@ -73,6 +75,53 @@
 
   </div>
 
+  <div id="bv-myModal" class="bv-modal">
+
+    <div class="bv-close" ></div>
+    <div class="bv-modal-content-details">
+      <div class="bv-mySlides">
+      <div class="bv-iframe-ratio" >
+        <iframe class="" src="https://www.youtube.com/embed/tOo68r-DgBA?enablejsapi=1&controls=1&rel=0&autoplay=0&showinfo=0&modestbranding=1" frameborder="0" width="550" height="281" allow="encrypted-media" allowfullscreen><img src="{{site.img}}/content/hero.jpg"></iframe></div>
+
+
+      </div>
+
+  </div>
+  </div>
+
+
+
+  <script>
+  // Get the modal
+  var modal = document.getElementById('bv-myModal');
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("bv-myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("bv-close")[0];
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+      $('body').addClass('bv-disable-scroll');
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+        $('body').removeClass('bv-disable-scroll');
+
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+          $('body').removeClass('bv-disable-scroll');
+    }
+  }
+  </script>
   </body>
 
 </html>
