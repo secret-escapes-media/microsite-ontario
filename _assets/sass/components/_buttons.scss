@@ -35,7 +35,7 @@
       @include transition;
     }
     &:hover {
-      background-color: $white;
+      background-color: $b-lightgrey;
       color: $b-darkgrey;
       &:before { border-color: $b-darkgrey; }
     }
