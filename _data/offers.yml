@@ -1,9 +1,10 @@
-- title:  "Her goes title"
-  id: true-blue
-  location: location
-  description: "description"
-  price: 74
-  price-description: pro Person - basierend auf 2 Personen pro Unterkunft
-  saved: 56
-  image: ""
-  link: "#"
+- title:  "Camper-Rundreise durch den Osten Kanadas"
+  id: toronto
+  location: Toronto, Ontario
+  description: "Inkl. Flügen, Wohnmobil, Navi, 2.000 Freikilometer, Versicherung ohne Selbstbeteiligung & Extras "
+  price: 1369
+  price-description: pro Person - basierend auf 2 Personen für 13 Nächte
+  saved: 19
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/89788/75b428aa_5a39_4eb2_a5f0_c75bb623cc5d.jpg"
+  flight-tag: true
+  link: "http://bit.ly/2NGeYcZ"
