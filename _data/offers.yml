@@ -1,4 +1,4 @@
-- title:  "Camper-Rundreise durch den Osten Kanadas"
+- title: "Camper-Rundreise durch den Osten Kanadas"
   id: toronto
   location: Toronto, Ontario
   description: "Inkl. Flügen, Wohnmobil, Navi, 2.000 Freikilometer, Versicherung ohne Selbstbeteiligung & Extras "
@@ -8,3 +8,14 @@
   image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/89788/75b428aa_5a39_4eb2_a5f0_c75bb623cc5d.jpg"
   flight-tag: true
   link: "http://bit.ly/2NGeYcZ"
+
+- title: "Kanada: Mietwagen-Rundreise durch Ontario"
+  id: ontario-tour
+  location: Toronto, Niagara-Fälle, Midland, Huntsville, Ottawa, Kingston
+  description: "Mit dem Auto durch Ontario – inkl. Flügen, Hotels & Mietwagen"
+  price: 1799
+  price-description: pro Person - basierend auf 2 Personen für 12 Nächte
+  saved:
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/90594/bc9b7fd0_cf9b_4823_ad60_d251f29caa85.jpg"
+  flight-tag: true
+  link: "http://bit.ly/2FkEjXy"
